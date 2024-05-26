@@ -33,7 +33,7 @@
 Como clonar o meu projeto/How to clone my project:
 
 ```bash
-git clone https://github.com/JoaoEstevam01/Pet-Paradis
+git clone https://github.com/JoaoEstevam01/Pet-Paradise
 ```
 
 <h2 id="colab">🤝 Colaboradores/Collaborators</h2>
