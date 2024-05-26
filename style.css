@@ -26,11 +26,10 @@ body {
 .imagem-fundo {
     width: 100%;
     margin-top: 40px;
-    padding: 0px 20px;
+    padding:  120px 80px;
     background-size: cover;
     box-sizing: border-box;
     position: relative;
-
 }
 
 .container2 {
@@ -55,19 +54,214 @@ body {
     margin: 0 0 20px 0;
 }
 
-.container2 img {
-    width: 2%;
+.fale {
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #30B27F;
+    font-size: 20px;
+    text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+.fale a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fale img {
+    width: 8%;
+}
+
+/*Seção Serviços*/
+
+.secao-servicos {
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+.secao-servicos h3 {
+    font-size: 36px;
+    color: #30B27F;
+    text-align: center;
+    margin: 0 0;
+    margin-bottom: 45px;
+}
+
+.secao-servicos li {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    color: #024053;
+}
+
+.secao-servicos ul {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin: 0 0;
+}
+
+.secao-servicos b {
+    font-style: italic;
+}
+
+.imgservicos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.secao-servicos img {
+    max-width: 300px;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+/*Redes Sociais*/
+
+.redes-sociais, .redes-sociais2 {
+    padding:  60px;
+    background-color: #30B27F;
+    align-items: center;
+}
+
+.redes-sociais p, .redes-sociais2 p {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.redes-sociais span, .redes-sociais2 span {
+    font-weight: 700;
+    font-style: italic  ;
+}
+
+.redes-sociais img, .redes-sociais2 img{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.sociaisimg {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sociaisimg a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Config marcas*/
+
+.marcas {
+    width: 100%;
+    padding:  0;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.marcas h3 {
+    text-align: center;
+    color: #30B27F;
+    font-size: 36px;
+    margin-bottom: 45px;
+}
+
+.marcas img {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.marcas1 img, .marcas2 img, .marcas3 img, .marcas4 img {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+
+/*Localização*/
+
+.ondeestamos {
+    width: 100%;
+    padding:  0;
+    text-align: center;
+}
+
+.ondeestamos h3 {
+    margin-bottom: 45px;
+    font-size: 36px;
+    color: #30B27F;
+}
+
+.ondeestamos p {
+    font-size: 20px;
+    color: #024053;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+iframe {
+    width: 800px;
+    height: 450px;
+    margin-bottom: 45px;
+}
+
+/*Footer*/
+
+.rodape {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #30B27F;
+} 
+
+.rodape h1 {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+/*Configuração de tela - Tablet/Celular*/
+
+@media screen and (max-width: 1200px) {
     .container2 {
         max-width: 90%;
         padding: 20px;
-        top: 27%;
+        top: 25%;
     }
 
     .container2 p {
         font-size: 18px;
         margin-bottom: 10px;
+    }
+
+    .secao-servicos {
+        width: 100%;
+    }
+
+    .secao-servicos ul {
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin: 15px;
+        padding: 19px;
+        
+    }
+
+    .ondeestamos p {
+        margin: 5px;
+    }
+    
+    iframe {
+        width: 350px;
+        height: 225px;
+        margin-bottom: 45px;
     }
 }
